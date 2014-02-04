@@ -1,6 +1,6 @@
 Summary:	Amusing Misuse Of Resources put's comic figures above your windows
 Name:		amor
-Version:	4.12.1
+Version:	4.12.2
 Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
@@ -41,6 +41,9 @@ Amusing Misuse Of Resources put's comic figures above your windows.
 %makeinstall_std -C build
 
 %changelog
+* Tue Feb 04 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.12.2-1
+- New version 4.12.2
+
 * Tue Jan 14 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.12.1-1
 - New version 4.12.1
 
