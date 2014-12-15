@@ -1,18 +1,14 @@
+%define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
+
 Summary:	Amusing Misuse Of Resources put's comic figures above your windows
 Name:		amor
-Version:	4.14.3
-Release:	2
+Version:	14.11.97
+Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2+
 Url:		http://www.kde.org
-%define is_beta %(if test `echo %{version} |cut -d. -f3` -ge 70; then echo -n 1; else echo -n 0; fi)
-%if %{is_beta}
-%define ftpdir unstable
-%else
-%define ftpdir stable
-%endif
-Source0:	ftp://ftp.kde.org/pub/kde/%{ftpdir}/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	ftp://ftp.kde.org/pub/kde/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	kdelibs4-devel
 Conflicts:	kdetoys4-devel < 1:4.11.0
 
