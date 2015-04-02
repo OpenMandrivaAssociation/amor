@@ -2,7 +2,7 @@
 
 Summary:	Amusing Misuse Of Resources put's comic figures above your windows
 Name:		amor
-Version:	14.12.3
+Version:	15.03.97
 Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
