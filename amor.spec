@@ -9,7 +9,7 @@ Group:		Graphical desktop/KDE
 License:	GPLv2+
 Url:		http://www.kde.org
 Source0:	ftp://ftp.kde.org/pub/kde/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
-BuildRequires:	kdelibs4-devel
+BuildRequires:	kdelibs-devel
 Conflicts:	kdetoys4-devel < 1:4.11.0
 
 %description
